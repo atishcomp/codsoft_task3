@@ -1,0 +1,191 @@
+.home{
+    height: 100vh;
+    width: 100%;
+    background: black;
+}
+
+.semi-circle{
+        height: 100vh;
+        width: 350px;
+        background: rgba(255, 255, 255, 0.109);
+        border-top-right-radius: 500px;
+        border-bottom-right-radius: 500px;
+        /* box-shadow: 0 0 25px white; */
+    
+}
+.inner-semi-circle{
+    height: 70vh;
+    width: 250px;
+    background: rgba(255, 255, 255, 0.049);
+   margin-top: 15vh;
+   border-top-right-radius: 350px;
+   border-bottom-right-radius: 350px;
+    position: absolute;
+    box-shadow: 0 0 25px black;
+ 
+}
+.second-inner-semi-circle{
+    height: 50vh;
+    width: 170px;
+    background: rgba(255, 255, 255, 0.049);
+   margin-top: 10vh;
+   border-top-right-radius: 200px;
+   border-bottom-right-radius: 200px;
+    position: absolute;
+    box-shadow: 0 0 25px black;
+}
+.profile-image{
+    height: 670px;
+    width: auto;
+    position: absolute;
+    right: 15%;
+    bottom: 0;
+    opacity: .8;
+    /* background: red; */
+}
+.profile-info{
+    position: absolute;
+    top: 60%;
+    left: 20px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #f32170,  #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    
+}
+.profile-info-one{
+    position: absolute;
+    top: 48%;
+    left: 20px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #f32170,  #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+}
+
+.hi{
+    position: absolute;
+    top: 34%;
+    left: 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background: linear-gradient(to right, #f32170,  #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
+    font-weight: bold;
+    color: whitesmoke;
+    
+}
+.atish-yadav{
+    position: absolute;
+    top: 40%;
+    left: 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    /* background: linear-gradient(to right, #f32170,  #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
+    font-weight: bold;
+}
+
+.bubble{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background: linear-gradient(to right,#ff6b08, #cf23cf);
+    position: absolute;
+    top: 70%;
+    left: 35%;
+}
+.background-semi-circle{
+    height: 300px;
+    width: 500px;
+    background: linear-gradient(to right,#08ff7b, #2382cf);
+    /* border-radius: 600px; */
+    border-top-left-radius: 600px;
+    border-top-right-radius: 600px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 50%;
+   
+
+    /* z-index: -1; */
+}
+.react-logo{
+   margin-left: 200px;
+    height: 60px;
+    width: auto;
+    position: absolute;
+    margin-top: 15vh;
+}
+.nodejs-logo{
+    height: 60px;
+    width: auto;
+    position: absolute;
+    margin-top: 30vh;
+}
+.mongodb-logo{
+    height: 60px;
+    width: auto;
+    position: absolute;
+    margin-top: 35vh;
+   margin-left: 400px;
+
+}
+
+.home-mobile{
+    display: none;
+}
+
+@media only screen and (max-width:1000px){
+
+.home{
+    display: none;
+}    
+.home{
+    display: inline-block;
+    height: 100vh;
+    width: 100%;
+    background: black;
+}
+.profile-info{
+    position: absolute;
+    top: 60%;
+    left: 20px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #f32170,  #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    
+}
+.profile-info-one{
+    position: absolute;
+    top: 48%;
+    left: 20px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #f32170,  #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+}
+
+.bubble{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background: linear-gradient(to right,#ff6b08, #cf23cf);
+    position: absolute;
+    top: 85%;
+    left: 35%;
+}
+
+
+}

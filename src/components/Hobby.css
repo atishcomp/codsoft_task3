@@ -1,0 +1,58 @@
+.hobby{
+    height: 600px;
+    width: 100%;
+    background: black;
+    /* background: linear-gradient(to bottom,gray,yellow); */
+    display: flex;
+    z-index: 2;
+}
+.cover-body{
+    height: 800px;
+    width:90%;
+    margin-left: 5%;
+    /* background:black; */
+    background: linear-gradient(to bottom,#000000,#252424,gray); 
+    margin-top: -10px;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgb(242, 222, 222);
+}
+.hobby-mobile{
+    display: none;
+}
+@media only screen and (max-width:1000px){
+.hobby{
+    display: none;
+}
+.hobby-mobile{
+    display: inline-block;
+    margin-top: -2px;
+}
+
+.cover-body-mobile{
+    height: inherit;
+    width:100%;
+    /* margin-left: 5%; */
+    /* background:black; */
+    /* background: linear-gradient(to bottom,#000000,#252424,gray);  */
+    background: black;
+    /* margin-top: -150px; */
+    /* position: absolute; */
+    /* border-radius: 20px; */
+    /* box-shadow: 0 0 8px rgb(242, 222, 222); */
+}
+
+.wrapper{
+    max-height: 320px;
+    /* border: 2px solid black; */
+    display: flex;
+    overflow-x: auto;
+    margin-top: 20px;
+    margin-left: 10px;
+   
+}
+.wrapper::-webkit-scrollbar{
+    display: none;
+  }
+
+}
